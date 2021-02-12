@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+
+.imagenes-coffee {
+  width: 261px;
+  height: 261px;
+  background-size: cover;
+  display: flex;
+  display: inline-block;
+  position: relative;
+  top: 180px;
+  left: -300px;
+  margin: 32px;
+
+  .contenedor-titulo-parrafos{
+    .titulos {
+      font-family: "Oswald", sans-serif;
+      font-size: 16px;
+      letter-spacing: 1px;
+      position: absolute;
+      top: 257px;
+      left: 90px;
+      margin-top: 25px;
+    }
+  
+  
+  
+    .parrafos {
+      font-family: "Nunito", sans-serif;
+      font-size: 10px;
+      line-height: 23px;
+      color: #767676;
+      position: absolute;
+      top: 317px;
+      margin: 0px 23px;
+      
+    }
+  }
+}

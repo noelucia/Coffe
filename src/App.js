@@ -1,24 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Intro from './Section/Intro/section1.js';
+import Dos from './Section/Dos/section2.js';
+import Tres from './Section/Tres/section3.js';
+import Cuatro from './Section/Cuatro/section4';
+import Cinco from './Section/Cinco/section5';
+import Seis from './Section/Seis/section6';
+import Siete from './Section/Siete/section7';
+import Ocho from './Section/Ocho/section8';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Intro></Intro>
+      <Dos></Dos>
+      <Tres></Tres>
+      <Cuatro></Cuatro>
+      <Cinco></Cinco>
+      <Seis></Seis>
+      <Siete></Siete>
+      <Ocho></Ocho>
     </div>
   );
 }

@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+
+.imagenes-tres {
+  display: flex;
+  flex-direction: row;
+  .imagen {
+    height: 500px;
+    width: 500px;
+  }
+  .macarron {
+    background-image: url(./gallery_coffee_image_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .taza{
+    background-image: url(gallery_coffee_image_2_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .cafe{
+    background-image: url(gallery_coffee_image_5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+}
